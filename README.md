@@ -13,7 +13,7 @@ I'm doing a challenge, build a web page in HTML and CSS by myself without a tuto
 The designs were created to the following widths:
 
 - Mobile: 375px
-- Desktop: 1440pxolors
+- Desktop: 1440px
 
 ### Primary
 
