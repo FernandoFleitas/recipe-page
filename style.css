@@ -9,8 +9,13 @@
 }
 
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: hsl(24, 5%, 18%);
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    
+    color: hsl(30, 10%, 34%);
+
+}
+@font-face {
+    font-family: 'YoungSerif'; src: url('assets\\fonts\\young-serif\\YoungSerif-Regular.ttf');
 }
 h2{
     color: hsl(14, 45%, 36%);
@@ -19,6 +24,7 @@ body{
     padding: 5% 15%;
     background-color:hsl(30, 54%, 90%);
     font-size: 16px;
+    line-height: 32px;
 }
 
 .complete__body{
@@ -62,6 +68,30 @@ body{
     text-align: center;
 }
 
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.data{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+tr {
+    border-bottom: 1px solid hsl(30, 10%, 34%); 
+    
+}
 
 @media only screen and (max-width: 600px) {
     
